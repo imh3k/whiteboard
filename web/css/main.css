@@ -1,0 +1,200 @@
+/*:root {*/
+/*    --bgColor-defualt: #ffffff;*/
+/*    --bgColor-muted: #f6f8fa;*/
+/*    --bgColor-inset: #f6f8fa;*/
+/*    --bgColor-emphasis: #24292f;*/
+/*    --fgColor-defualt: #1f2328;*/
+/*    --fgColor-muted: #636c76;*/
+/*    --borderColor-default: #d0d7de;*/
+/*    --borderColor-muted: #d0d7deb3;*/
+/*    --page-width: 1220px;*/
+/*    font-size: 16px;*/
+/*}*/
+
+:root {
+    --bgColor-defualt: #0d1117;
+    --bgColor-muted: #161b22;
+    --bgColor-inset: #010409;
+    --bgColor-emphasis: #6e7681;
+    --fgColor-defualt: #e6edf3;
+    --fgColor-muted: #848d97;
+    --borderColor-default: #30363d;
+    --borderColor-muted: #30363db3;
+    --page-width: 1220px;
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif; /* 'Noto Sans' */
+    color: var(--fgColor-defualt);
+    background-color: var(--bgColor-defualt);
+}
+
+button.dark {
+    background-color: var(--secondary);
+    border: 1px solid var(--text-primary);
+    box-shadow: 0.2em 0.2em var(--text-primary);
+    padding: 0.8em 1.2em;
+    text-align: center;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--neutral);
+}
+
+button.dark:hover {
+    background-color: var(--text-primary);
+    box-shadow: 0.2em 0.2em var(--text-primary);
+    color: white;
+}
+
+button.dark img{
+    display: none;
+    vertical-align: middle;
+    margin-left: 0.5em;
+    height: 1em;
+    filter: invert(1);
+}
+
+header {
+    border-bottom: 1px solid var(--text-primary);
+}
+
+header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: var(--page-width);
+    margin: auto;
+    height: 4.2em;
+
+    /*border: 1px solid var(--text-primary);*/
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-right: 1.2em;
+    font-weight: 700;
+    font-size: 1.2rem;
+    border-right: 1px solid var(--text-primary);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    align-items: center;
+    margin-right: 3em;
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+header .contact-me {
+    height: 100%;
+    padding: 0 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    border-left: 1px solid var(--text-primary);
+    border-right: 1px solid var(--text-primary);
+}
+
+.wrapper {
+    max-width: 1020px;
+    margin: auto;
+}
+
+.talks {
+    margin: 5em auto;
+}
+
+.talks h2 {
+    margin-bottom: 0.5em;
+}
+
+a {
+    text-decoration: none;
+    color: var(--fgColor-defualt);
+}
+
+.entry {
+    border: 1px solid var(--borderColor-default);
+    border-radius: 0.5rem;
+    background: var(--bgColor-muted);
+    margin-bottom: 1em;
+    padding: 1em;
+}
+
+.entry .time-stamp {
+    color: var(--fgColor-defualt);
+    width: 4em;
+    text-align: right;
+    float: left;
+    margin-left: -4em;
+    padding-right: 0.8em;
+    /*font-size: 0.8em;*/
+}
+
+.entry .content {
+    width: 100%;
+}
+
+.content .title {
+    /*border: solid 1px red;*/
+    font-weight: 700;
+}
+
+.content .presenter {
+    /*border: solid 1px red;*/
+    color: var(--fgColor-muted);
+}
+
+.content .tags {
+    /*border: solid 1px red;*/
+    margin-bottom: 1em;
+}
+
+.tags .tag {
+    color: var(--fgColor-muted);
+    background-color: var(--bgColor-muted);
+    font-size: 0.7em;
+    font-weight: 600;
+    padding: 0.30em 0.60em;
+    border-radius: 0.5em;
+    margin-right: 0.2em;
+}
+
+.tags .physics {
+    color: #3a340b;
+    background-color: #FCE22A;
+}
+
+.tags .math {
+    color: #3a0a0a;
+    background-color: #ff3d3d;
+}
+
+.content .description {
+    /*border: solid 1px red;*/
+    margin-bottom: 0.1em;
+}
+
+.content .more-cta {
+    display: flex;
+    font-weight: 700;
+    /*font-size: 1rem;*/
+    display: inline-block;
+}
