@@ -3,8 +3,10 @@
 /*    --bgColor-muted: #f6f8fa;*/
 /*    --bgColor-inset: #f6f8fa;*/
 /*    --bgColor-emphasis: #24292f;*/
+/*    --bgColor-accent-emphasis: #0969da;*/
 /*    --fgColor-defualt: #1f2328;*/
 /*    --fgColor-muted: #636c76;*/
+/*    --fgColor-accent: #0969da;*/
 /*    --borderColor-default: #d0d7de;*/
 /*    --borderColor-muted: #d0d7deb3;*/
 /*    --page-width: 1220px;*/
@@ -16,8 +18,10 @@
     --bgColor-muted: #161b22;
     --bgColor-inset: #010409;
     --bgColor-emphasis: #6e7681;
+    --bgColor-accent-emphasis: #1f6feb;
     --fgColor-defualt: #e6edf3;
     --fgColor-muted: #848d97;
+    --fgColor-accent: #4493f8;
     --borderColor-default: #30363d;
     --borderColor-muted: #30363db3;
     --page-width: 1220px;
@@ -36,80 +40,16 @@ body {
     background-color: var(--bgColor-defualt);
 }
 
-button.dark {
-    background-color: var(--secondary);
-    border: 1px solid var(--text-primary);
-    box-shadow: 0.2em 0.2em var(--text-primary);
-    padding: 0.8em 1.2em;
-    text-align: center;
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: 600;
-    text-decoration: none;
-    color: var(--neutral);
-}
-
-button.dark:hover {
-    background-color: var(--text-primary);
-    box-shadow: 0.2em 0.2em var(--text-primary);
-    color: white;
-}
-
-button.dark img{
-    display: none;
-    vertical-align: middle;
-    margin-left: 0.5em;
-    height: 1em;
-    filter: invert(1);
-}
-
-header {
-    border-bottom: 1px solid var(--text-primary);
-}
-
-header .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: var(--page-width);
-    margin: auto;
-    height: 4.2em;
-
-    /*border: 1px solid var(--text-primary);*/
-}
-
-.navbar .logo {
-    display: flex;
-    align-items: center;
-    height: 100%;
-    padding-right: 1.2em;
-    font-weight: 700;
-    font-size: 1.2rem;
-    border-right: 1px solid var(--text-primary);
-}
-
-nav ul {
-    display: flex;
-    list-style: none;
-}
-
-nav li {
-    align-items: center;
-    margin-right: 3em;
-}
-
-nav li:last-child {
-    margin-right: 0;
-}
-
-header .contact-me {
-    height: 100%;
-    padding: 0 1.2em;
-    display: flex;
-    align-items: center;
-    justify-content: right;
-    border-left: 1px solid var(--text-primary);
-    border-right: 1px solid var(--text-primary);
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+    font-size: 1rem !important;
+    position: relative;
+    top: 0.1em;
+    color: var(--fgColor-muted);
+    margin-right: 0.5rem;
 }
 
 .wrapper {
@@ -117,11 +57,11 @@ header .contact-me {
     margin: auto;
 }
 
-.talks {
-    margin: 5em auto;
+section {
+    margin-top: 2em;
 }
 
-.talks h2 {
+section h2 {
     margin-bottom: 0.5em;
 }
 
@@ -131,6 +71,7 @@ a {
 }
 
 .entry {
+    width: 100%;
     border: 1px solid var(--borderColor-default);
     border-radius: 0.5rem;
     background: var(--bgColor-muted);
@@ -139,32 +80,25 @@ a {
 }
 
 .entry .time-stamp {
-    color: var(--fgColor-defualt);
-    width: 4em;
-    text-align: right;
-    float: left;
-    margin-left: -4em;
-    padding-right: 0.8em;
-    /*font-size: 0.8em;*/
+    color: var(--fgColor-muted);
+    font-size: 0.8em;
+    margin-bottom: 0.5em;
 }
 
-.entry .content {
-    width: 100%;
-}
-
-.content .title {
+.entry .title {
     /*border: solid 1px red;*/
     font-weight: 700;
 }
 
-.content .presenter {
+.entry .presenter {
     /*border: solid 1px red;*/
     color: var(--fgColor-muted);
 }
 
-.content .tags {
+.entry .tags {
     /*border: solid 1px red;*/
-    margin-bottom: 1em;
+    margin-top: 0.05em;
+    margin-bottom: 0.75em;
 }
 
 .tags .tag {
@@ -177,6 +111,36 @@ a {
     margin-right: 0.2em;
 }
 
+.entry .links {
+    margin-top: 0.5em;
+}
+
+.file {
+    color: var(--fgColor-accent);
+    font-size: 0.9em;
+}
+
+.file:before {
+    display: inline-block;
+    font-family: 'Material Symbols Outlined';
+    content: '\e873';
+    position: relative;
+    top: 0.1em;
+    color: var(--fgColor-accent);
+    margin-right: 0.2rem;
+}
+
+.file:hover {
+    text-decoration: underline;
+}
+
+.file .link-note {
+    display: inline-block;
+    color: var(--fgColor-muted);
+    font-size: 0.8em;
+    margin-left: 0.3em;
+}
+
 .tags .physics {
     color: #3a340b;
     background-color: #FCE22A;
@@ -185,16 +149,4 @@ a {
 .tags .math {
     color: #3a0a0a;
     background-color: #ff3d3d;
-}
-
-.content .description {
-    /*border: solid 1px red;*/
-    margin-bottom: 0.1em;
-}
-
-.content .more-cta {
-    display: flex;
-    font-weight: 700;
-    /*font-size: 1rem;*/
-    display: inline-block;
 }
