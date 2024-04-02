@@ -138,7 +138,6 @@ a {
     display: inline-block;
     color: var(--fgColor-muted);
     font-size: 0.8em;
-    margin-left: 0.3em;
 }
 
 .tags .physics {
@@ -148,5 +147,5 @@ a {
 
 .tags .math {
     color: #3a0a0a;
-    background-color: #ff3d3d;
+    background-color: #ff6d7d;
 }
