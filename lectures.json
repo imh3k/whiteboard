@@ -1,0 +1,22 @@
+[
+  {
+    "timestamp": "10. 4. 2024",
+    "title": "Cavity Methods for Dummies",
+    "presenter": "Bc. Marek Jankola",
+    "tags": [
+      ["physics", "Statistical Physics"],
+      ["math", "Probability Theory"]
+    ],
+    "description": "Dolor sit amet, consectetur adipiscing elit. Ut suscipit quam ligula, eget dignissim tortor efficiturid. Etiam non consectetur nisi. Praesent tincidunt eu ex a auctor."
+  },
+  {
+    "timestamp": "10. 4. 2024",
+    "title": "My cool Bachelor Thesis",
+    "presenter": "Bc. Jonáš Dujava",
+    "tags": [
+      ["physics", "QFT"],
+      ["math", "Group Theory"]
+    ],
+    "description": "Pellentesque habitant morbi tristique sen, ectus et netus et malesuada fames ac turpis egestas. Nam suscipit, tortor eget eleifend placerat, magna risus congue mi, ac porta arcu nisl euismod felis."
+  }
+]
