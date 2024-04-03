@@ -1,0 +1,44 @@
+[
+  {
+    "timestamp": "27. 3. 2024",
+    "title": "Head-to-Head Battle of Coin Flip Strategies",
+    "presenter": "Bc. Marek Jankola",
+    "tags": [
+      ["math", "Statistics"],
+      ["physics", "Statistical Physics"]
+    ],
+    "assignment": "Consider a fair coin and two players Alice and Bob. They flip a coin \\(N\\)-times. Alice gets a point for each pair of two consecutive heads \\(\\mathsf{HH}\\), including cases where heads overlap (i.e., \\(\\mathsf{HHH}\\) yields two points). Bob gets a point for each pair of heads followed by tails \\(\\mathsf{HT}\\). The winner is a player who scored more points. On average, who wins more games? What are the respective win rates and how much percent of games ends in a draw?"
+  },
+  {
+    "timestamp": "20. 3. 2024",
+    "title": "Random Walk on a Bridge",
+    "presenter": "Bc. Marek Jankola",
+    "tags": [
+      ["math", "Statistics"],
+      ["math", "Probability"]
+    ],
+    "assignment": "A (one-dimensional) bridge is \\(30\\) meters wide. A \"random walker\" starts \\(10\\) meters from the right end of the bridge. Each second, the walker takes a \\(1\\,\\text{m}\\) step with equal probability to the left or to the right. If the walker reaches the left end of the bridge, he falls off. What is the probability that the walker falls off the bridge on the left side (in the limit of infinite time)?"
+  },
+  {
+    "timestamp": "20. 3. 2024",
+    "title": "Just a Simple Limit",
+    "presenter": "Bc. Jonáš Dujava",
+    "tags": [
+      ["math", "Analysis"],
+      ["math", "Statistics"]
+    ],
+    "assignment": "Calculate the limit \\[ \\lim_{n \\to \\infty} e^{-n} \\sum_{k=0}^{n} \\frac{n^{k}}{k!} = \\mathord{?}. \\]",
+    "links": [
+      {
+        "href": "https://math.stackexchange.com/questions/1297553/how-to-compute-lim-n-rightarrow-inftye-n-left1n-fracn22-cdots-f",
+        "text": "Solution",
+        "note": "math.stackexchange"
+      },
+      {
+        "href": "https://math.stackexchange.com/questions/160248/evaluating-lim-limits-n-to-infty-e-n-sum-limits-k-0n-fracnkk",
+        "text": "Alternative Solutions",
+        "note": "math.stackexchange"
+      }
+    ]
+  }
+]
