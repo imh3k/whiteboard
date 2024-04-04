@@ -5,6 +5,13 @@ function renderTags(tags) {
     </div>`;
 }
 
+function renderLinks(links) {
+    return `
+    <div class="links">
+    ${links.map(link => `<a href="${link.href}" class="file">${link.text}${link.note ? `<span class="link-note">(${link.note})</span>` : ''}</a>`).join('\t')}
+    </div>`;
+}
+
 function renderTalk(data) {
     return `
     <div class="entry">
@@ -24,6 +31,7 @@ function renderProblem(data) {
         <p class="presenter">${data.presenter}</p>
         ${data.tags ? renderTags(data.tags) : ''}
         <p class="assignment">${data.assignment}</p>
+        ${data.links ? renderLinks(data.links) : ''}
     </div>`;
 }
 

@@ -7,7 +7,14 @@
       ["math", "Statistics"],
       ["physics", "Statistical Physics"]
     ],
-    "assignment": "Consider a fair coin and two players Alice and Bob. They flip a coin \\(N\\)-times. Alice gets a point for each pair of two consecutive heads \\(\\mathsf{HH}\\), including cases where heads overlap (i.e., \\(\\mathsf{HHH}\\) yields two points). Bob gets a point for each pair of heads followed by tails \\(\\mathsf{HT}\\). The winner is a player who scored more points. On average, who wins more games? What are the respective win rates and how much percent of games ends in a draw?"
+    "assignment": "Consider a fair coin and two players Alice and Bob. They flip a coin \\(N\\)-times. Alice gets a point for each pair of two consecutive heads \\(\\mathsf{HH}\\), including cases where heads overlap (i.e., \\(\\mathsf{HHH}\\) yields two points). Bob gets a point for each pair of heads followed by tails \\(\\mathsf{HT}\\). The winner is a player who scored more points. On average, who wins more games? What are the respective win rates and how much percent of games ends in a draw?",
+    "links": [
+      {
+        "href": "https://www.youtube.com/watch?v=xvFZjo5PgG0",
+        "text": "Solution",
+        "note": "by Tomáš"
+      }
+    ]
   },
   {
     "timestamp": "20. 3. 2024",

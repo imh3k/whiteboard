@@ -115,6 +115,7 @@ a {
 .file {
     color: var(--fgColor-accent);
     font-size: 0.9em;
+    margin-right: 0.5em
 }
 
 .file:before {
@@ -135,6 +136,7 @@ a {
     display: inline-block;
     color: var(--fgColor-muted);
     font-size: 0.8em;
+    margin-left: 0.2em;
 }
 
 .tags .physics {
