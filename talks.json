@@ -11,12 +11,12 @@
   },
   {
     "timestamp": "10. 4. 2024",
-    "title": "My cool Bachelor Thesis",
+    "title": "Counting Operators in Effective Field Theories",
     "presenter": "Bc. Jonáš Dujava",
     "tags": [
       ["physics", "QFT"],
       ["math", "Group Theory"]
     ],
-    "description": "Pellentesque habitant morbi tristique sen, ectus et netus et malesuada fames ac turpis egestas. Nam suscipit, tortor eget eleifend placerat, magna risus congue mi, ac porta arcu nisl euismod felis."
+    "description": "The operators in an Effective Field Theory Lagrangian satisfy various relations that arise from equations of motion, integration by parts, and finite-dimensionality conditions. These relations can be systematically handled using group-theoretic techniques implemented in the so-called Hilbert series method, which enables us to compute a generating function that encodes the number of independent operators with a given number of derivatives and particle fields."
   }
 ]
