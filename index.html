@@ -12,100 +12,15 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-    </script>
+    <script src="js/mathjax-config.js" defer></script>
+    <script id="MathJax-script" defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="js/parse_data.js" defer></script>
 </head>
 
 <body>
     <div class="wrapper">
-        <section class="talks">
-            <h2>Future talks</h2>
-            <div class="entry">
-                <p class="time-stamp">10. 4. 2024</p>
-                <p class="title">Cavity Methods for Dummies</p>
-                <p class="presenter">Bc. Marek Jankola</p>
-                <div class="tags">
-                    <span class="tag physics">Statistical physics</span>
-                </div>
-                <p class="description">
-                    Dolor sit amet, consectetur adipiscing elit. Ut suscipit quam ligula, eget dignissim tortor
-                    efficitur
-                    id. Etiam non consectetur nisi. Praesent tincidunt eu ex a auctor.
-                </p>
-            </div>
-            <div class="entry">
-                <p class="time-stamp">10. 4. 2024</p>
-                <p class="title">My cool Bachelor Thesis</p>
-                <p class="presenter">Bc. Jonáš Dujava</p>
-                <div class="tags">
-                    <span class="tag physics">QFT</span>
-                    <span class="tag math">Group theory</span>
-                </div>
-                <p class="description">
-                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam
-                    suscipit, tortor eget eleifend placerat, magna risus congue mi, ac porta arcu nisl euismod felis.
-                </p>
-            </div>
-        </section>
-        <section class="problems">
-            <h2>Problems</h2>
-            <div class="entry">
-                <p class="time-stamp">27. 3. 2024</p>
-                <p class="title">Head-to-Head Battle of Coin Flip Strategies</p>
-                <p class="presenter">Posed by: Bc. Marek Jankola</p>
-                <!-- <p class="title">Alice’s consecutive heads vs. Bobs tail tricks</p> -->
-                <div class="tags">
-                    <span class="tag math">Statistics</span>
-                    <span class="tag physics">Statistical physics</span>
-                </div>
-                <p class="assignment">
-                    Consider a fair coin and two players Alice and Bob. They flip a coin \(N\)-times.
-                    Alice gets a point for each pair of two consecutive heads \(\mathsf{HH}\), including cases where
-                    heads overlap (i.e., \(\mathsf{HHH}\) yields two points). Bob gets a point for each pair of heads
-                    followed by tails \(\mathsf{HT}\). The winner is a player who scored more points. On average, who
-                    wins more games? What are the respective win rates and how much percent of games ends in a draw?
-                </p>
-                <div class="links">
-                    <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" class="file">
-                        Solution <span class="link-note">(by Tomáš)</span>
-                    </a>
-                </div>
-            </div>
-            <div class="entry">
-                <p class="time-stamp">20. 3. 2024</p>
-                <p class="title">Random Walk on a Bridge</p>
-                <p class="presenter">Posed by: Bc. Marek Jankola</p>
-                <div class="tags">
-                    <span class="tag math">Statistics</span>
-                    <span class="tag math">Probability</span>
-                </div>
-                <p class="assignment">
-                    A (one-dimensional) bridge is \(30\) meters wide. A "random walker" starts \(10\) meters from the
-                    right end of the bridge. Each second, the walker takes a \(1\,\text{m}\) step with equal probability
-                    to the left or to the right. If the walker reaches the left end of the bridge, he falls off. What is
-                    the probability that the walker falls off the bridge on the left side (in the limit of infinite
-                    time)?
-                </p>
-            </div>
-            <div class="entry">
-                <p class="time-stamp">20. 3. 2024</p>
-                <p class="title">Just a Simple Limit</p>
-                <p class="presenter">Posed by: Bc. Jonáš Dujava</p>
-                <div class="tags">
-                    <span class="tag math">Analysis</span>
-                    <span class="tag math">Statistics</span>
-                </div>
-                <p class="assignment">
-                    Calculate the limit \[ \lim_{n \to \infty} e^{-n} \sum_{k=0}^{n} \frac{n^{k}}{k!} = \mathord{?}. \]
-                </p>
-                <div class="links">
-                    <a href="https://math.stackexchange.com/questions/1297553/how-to-compute-lim-n-rightarrow-inftye-n-left1n-fracn22-cdots-f"
-                        class="file">Solutions <span class="link-note">(math.stackexchange)</span></a>
-                    <a href="https://math.stackexchange.com/questions/160248/evaluating-lim-limits-n-to-infty-e-n-sum-limits-k-0n-fracnkk"
-                        class="file">Alternative Solutions <span class="link-note">(math.stackexchange)</span></a>
-                </div>
-            </div>
-        </section>
+        <section class="talks" id="talks"></section>
+        <section class="problems" id="problems"></section>
     </div>
 </body>
 
