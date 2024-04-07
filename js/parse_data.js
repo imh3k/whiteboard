@@ -1,3 +1,5 @@
+// import "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js";
+
 function renderTags(tags) {
     return `
     <div class="tags">
@@ -66,6 +68,7 @@ async function main() {
         ${problemsData.map(renderProblem).join('\n')}
     `;
 
+    MathJax.typeset();
 }
 
-main();
+main()
