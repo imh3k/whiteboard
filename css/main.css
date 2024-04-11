@@ -24,7 +24,7 @@
     --fgColor-accent: #4493f8;
     --borderColor-default: #30363d;
     --borderColor-muted: #30363db3;
-    --page-width: 1220px;
+    --page-width: 1020px;
     font-size: 16px;
 }
 
@@ -40,6 +40,36 @@ body {
     background-color: var(--bgColor-defualt);
 }
 
+.navbar {
+    height: 4em;
+    border-bottom: var(--borderColor-default) solid 1px;
+    align-content: center;
+    background-color: var(--bgColor-defualt);
+}
+
+.navbar .container {
+    max-width: var(--page-width);
+    /*border: red solid 1px;*/
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar_logo {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    font-weight: 700;
+    color: var(--fgColor-defualt);
+    text-decoration: none;
+}
+
+.navbar_logo .img {
+    height: 2em;
+    margin-right: 1em;
+}
+
 .material-symbols-outlined {
     font-variation-settings: 'FILL' 0,
     'wght' 400,
@@ -53,7 +83,7 @@ body {
 }
 
 .wrapper {
-    max-width: 1020px;
+    max-width: var(--page-width);
     margin: auto;
     padding-top: 1em;
 }

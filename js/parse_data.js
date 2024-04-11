@@ -1,5 +1,3 @@
-// import "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js";
-
 function compareTimesamps(a, b) {
     a_int = parseInt(a.timestamp.split('.').map(x => x.trim().padStart(2, '0')).reverse().join(''));
     b_int = parseInt(b.timestamp.split('.').map(x => x.trim().padStart(2, '0')).reverse().join(''));
