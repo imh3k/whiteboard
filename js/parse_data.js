@@ -1,5 +1,11 @@
 // import "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js";
 
+function compareTimesamps(a, b) {
+    a_int = parseInt(a.timestamp.split('.').map(x => x.trim().padStart(2, '0')).reverse().join(''));
+    b_int = parseInt(b.timestamp.split('.').map(x => x.trim().padStart(2, '0')).reverse().join(''));
+    return a_int - b_int
+}
+
 function renderTags(tags) {
     return `
     <div class="tags">
@@ -38,7 +44,8 @@ function renderProblem(data) {
 }
 
 async function main() {
-    let talks = document.getElementById('talks');
+    let upcomingTalks = document.getElementById('upcomingTalks')
+    let pastTalks = document.getElementById('pastTalks');
     const talksData = await fetch('./talks.json')
         .then((res) => {
             if (!res.ok) {
@@ -48,9 +55,22 @@ async function main() {
             return res.json();})
         .catch(error => console.error("Unable to fetch talks data:", error));
 
-    talks.innerHTML = `
-        <h2>Upcoming talks</h2>
-        ${talksData.map(renderTalk).join('\n')}
+    const date = new Date()
+    const dateToday = {'timestamp': `${date.getDate()}. ` + `${date.getMonth() + 1}. ` + `${date.getFullYear()}`};
+
+    talksData.sort(compareTimesamps);
+    const upcomingTalksData= [];
+    const pastTalksData = [];
+    talksData.forEach((x) => (compareTimesamps(x, dateToday) >= 0 ? upcomingTalksData : pastTalksData).push(x));
+
+    upcomingTalks.innerHTML = `
+        <h3>Upcoming talks</h3>
+        ${upcomingTalksData.map(renderTalk).join('\n')}
+    `;
+
+    pastTalks.innerHTML = `
+        <h3>Past talks</h3>
+        ${pastTalksData.map(renderTalk).join('\n')}
     `;
 
     let problems = document.getElementById('problems');
