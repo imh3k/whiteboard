@@ -42,9 +42,9 @@ function renderProblem(data) {
 }
 
 async function main() {
-    let upcomingTalks = document.getElementById('upcomingTalks')
-    let pastTalks = document.getElementById('pastTalks');
-    const talksData = await fetch('./talks.json')
+    let upcomingTalks = document.getElementById('upcomingTalksSection')
+    let pastTalks = document.getElementById('pastTalksSection');
+    const talksData = await fetch('data/talks.json')
         .then((res) => {
             if (!res.ok) {
                 throw new Error
@@ -62,17 +62,15 @@ async function main() {
     talksData.forEach((x) => (compareTimesamps(x, dateToday) >= 0 ? upcomingTalksData : pastTalksData).push(x));
 
     upcomingTalks.innerHTML = `
-        <h3>Upcoming talks</h3>
         ${upcomingTalksData.map(renderTalk).join('\n')}
     `;
 
     pastTalks.innerHTML = `
-        <h3>Past talks</h3>
         ${pastTalksData.map(renderTalk).join('\n')}
     `;
 
-    let problems = document.getElementById('problems');
-    const problemsData = await fetch('./problems.json')
+    let problems = document.getElementById('problemsSection');
+    const problemsData = await fetch('data/problems.json')
         .then((res) => {
             if (!res.ok) {
                 throw new Error
@@ -82,7 +80,6 @@ async function main() {
         .catch(error => console.error("Unable to fetch problems data:", error));
 
     problems.innerHTML = `
-        <h2>Problems</h2>
         ${problemsData.map(renderProblem).join('\n')}
     `;
 

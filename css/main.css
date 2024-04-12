@@ -88,13 +88,13 @@ body {
     padding-top: 1em;
 }
 
-section h2 {
+h2 {
     font-size: 1.5em;
     margin-top: 1em;
     margin-bottom: 0.5em;
 }
 
-section h3 {
+h3 {
     font-size: 1.2em;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
@@ -103,6 +103,14 @@ section h3 {
 a {
     text-decoration: none;
     color: var(--fgColor-defualt);
+}
+
+h1:hover .anchor,h2:hover .anchor,h3:hover .anchor,h4:hover .anchor,h5:hover .anchor,h6:hover .anchor {
+    display: inline-flex;
+    color: var(--fgColor-muted);
+    margin-inline-start:8px;
+    font-weight: 500;
+    user-select: none;
 }
 
 .entry {
