@@ -48,16 +48,17 @@ async function main() {
         .then((res) => {
             if (!res.ok) {
                 throw new Error
-                (`HTTP error! Status: ${res.status}`);
+                    (`HTTP error! Status: ${res.status}`);
             }
-            return res.json();})
+            return res.json();
+        })
         .catch(error => console.error("Unable to fetch talks data:", error));
 
     const date = new Date()
-    const dateToday = {'timestamp': `${date.getDate()}. ` + `${date.getMonth() + 1}. ` + `${date.getFullYear()}`};
+    const dateToday = { 'timestamp': `${date.getDate()}. ` + `${date.getMonth() + 1}. ` + `${date.getFullYear()}` };
 
     talksData.sort(compareTimesamps);
-    const upcomingTalksData= [];
+    const upcomingTalksData = [];
     const pastTalksData = [];
     talksData.forEach((x) => (compareTimesamps(x, dateToday) >= 0 ? upcomingTalksData : pastTalksData).push(x));
 
@@ -74,9 +75,10 @@ async function main() {
         .then((res) => {
             if (!res.ok) {
                 throw new Error
-                (`HTTP error! Status: ${res.status}`);
+                    (`HTTP error! Status: ${res.status}`);
             }
-            return res.json();})
+            return res.json();
+        })
         .catch(error => console.error("Unable to fetch problems data:", error));
 
     problems.innerHTML = `

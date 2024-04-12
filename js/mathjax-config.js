@@ -1,3 +1,3 @@
 window.MathJax = {
-    loader: {load: ['ui/lazy']}
+    loader: { load: ['ui/lazy'] }
 };

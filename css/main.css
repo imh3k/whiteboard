@@ -105,7 +105,8 @@ a {
     color: var(--fgColor-defualt);
 }
 
-h1:hover .anchor,h2:hover .anchor,h3:hover .anchor,h4:hover .anchor,h5:hover .anchor,h6:hover .anchor {
+h1:hover .anchor,h2:hover .anchor,h3:hover .anchor,
+h4:hover .anchor,h5:hover .anchor,h6:hover .anchor {
     display: inline-flex;
     color: var(--fgColor-muted);
     margin-inline-start:8px;
