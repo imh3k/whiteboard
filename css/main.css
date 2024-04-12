@@ -16,6 +16,7 @@
 :root {
     --bgColor-defualt: #0d1117;
     --bgColor-muted: #161b22;
+    --bgColor-highlight: #222730;
     --bgColor-inset: #010409;
     --bgColor-emphasis: #6e7681;
     --bgColor-accent-emphasis: #1f6feb;
@@ -133,8 +134,13 @@ h4:hover .anchor,h5:hover .anchor,h6:hover .anchor {
     font-weight: 700;
 }
 
-.entry .presenter {
+.entry .presenter, .entry .posedby {
     color: var(--fgColor-muted);
+}
+
+.entry .posedby:before {
+    content: 'Posed by: ';
+    font-size: 12px;
 }
 
 .entry .tags {
@@ -150,6 +156,21 @@ h4:hover .anchor,h5:hover .anchor,h6:hover .anchor {
     padding: 0.30em 0.60em;
     border-radius: 0.5em;
     margin-right: 0.2em;
+}
+
+.hints {
+    line-height: 1.5em;
+}
+
+.hint {
+    background-color: var(--bgColor-highlight);
+    color: transparent;
+    user-select: none;
+}
+
+.hint:active{
+    background-color: inherit;
+    color: inherit;
 }
 
 .entry .links {

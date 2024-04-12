@@ -18,6 +18,13 @@ function renderLinks(links) {
     </div>`;
 }
 
+function renderHints(hints) {
+    return `
+    <div class="hints">
+    ${hints.map(hint => `${hint[0]}: <span class="hint">${hint[1]}</span>`).join('<br>')}
+    </div>`;
+}
+
 function renderTalk(data) {
     return `
     <div class="entry">
@@ -34,9 +41,10 @@ function renderProblem(data) {
     <div class="entry">
         <p class="time-stamp">${data.timestamp}</p>
         <p class="title">${data.title}</p>
-        <p class="presenter">${data.presenter}</p>
+        <p class="posedby">${data.presenter}</p>
         ${data.tags ? renderTags(data.tags) : ''}
         <p class="assignment">${data.assignment}</p>
+        ${data.hints ? renderHints(data.hints) : ''}
         ${data.links ? renderLinks(data.links) : ''}
     </div>`;
 }

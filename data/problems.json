@@ -35,6 +35,11 @@
       ["math", "Statistics"]
     ],
     "assignment": "Calculate the limit \\[ \\lim_{n \\to \\infty} e^{-n} \\sum_{k=0}^{n} \\frac{n^{k}}{k!} = \\mathord{?}. \\]",
+    "hints": [
+      ["First hint", "Notice, that we are summing over Poisson distribution."],
+      ["Fact", "For given \\(n\\), we have Poisson distribution with a mean \\(n\\)."],
+      ["Final one", "Poisson for big \\(n\\) looks like _______ distribution (possible to derive using Central Limit Theorem)."]
+    ],
     "links": [
       {
         "href": "https://math.stackexchange.com/questions/1297553/how-to-compute-lim-n-rightarrow-inftye-n-left1n-fracn22-cdots-f",
