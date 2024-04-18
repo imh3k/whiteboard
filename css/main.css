@@ -42,33 +42,30 @@ body {
 }
 
 .navbar {
-    height: 4em;
+    display: flex;
+    justify-content: space-between;
+    height: 5em;
     border-bottom: var(--borderColor-default) solid 1px;
-    align-content: center;
-    background-color: var(--bgColor-defualt);
 }
 
 .navbar .container {
-    max-width: var(--page-width);
-    /*border: red solid 1px;*/
-    margin: auto;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    width: var(--page-width);
+    margin: auto;
 }
 
-.navbar_logo {
+.container .logo {
     display: flex;
     align-items: center;
     font-size: 1em;
     font-weight: 700;
     color: var(--fgColor-defualt);
-    text-decoration: none;
+    margin-right: auto;
 }
 
-.navbar_logo .img {
-    height: 2em;
-    margin-right: 1em;
+.navbar a {
+    margin-left: 1em;
 }
 
 .material-symbols-outlined {
@@ -86,7 +83,6 @@ body {
 .wrapper {
     max-width: var(--page-width);
     margin: auto;
-    padding-top: 1em;
 }
 
 h2 {
@@ -97,7 +93,7 @@ h2 {
 
 h3 {
     font-size: 1.2em;
-    margin-top: 0.5em;
+    /*margin-top: 0.5em;*/
     margin-bottom: 0.5em;
 }
 
