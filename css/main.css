@@ -21,6 +21,7 @@
     --bgColor-emphasis: #6e7681;
     --bgColor-accent-emphasis: #1f6feb;
     --fgColor-defualt: #e6edf3;
+    --fgColor-highlight: #f0f6fc;
     --fgColor-muted: #848d97;
     --fgColor-accent: #4493f8;
     --borderColor-default: #30363d;
@@ -44,7 +45,7 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;
-    height: 5em;
+    height: 4em;
     border-bottom: var(--borderColor-default) solid 1px;
 }
 
@@ -53,9 +54,10 @@ body {
     align-items: center;
     width: var(--page-width);
     margin: auto;
+    padding: 0 2em;
 }
 
-.container .logo {
+.navbar .navbar_logo {
     display: flex;
     align-items: center;
     font-size: 1em;
@@ -63,9 +65,23 @@ body {
     color: var(--fgColor-defualt);
     margin-right: auto;
 }
+.navbar_logo .logo {
+    margin-right: 0.5em;
+}
 
-.navbar a {
-    margin-left: 1em;
+.navbar .links {
+    display: flex;
+    margin: 0 -0.5em 0 1em;
+}
+.navbar .links a {
+    /* margin-left: 1em; */
+    padding: 0.5em 0.8em;
+    font-size: 1.1em;
+}
+.navbar a:hover {
+    background-color: var(--bgColor-muted);
+    color: var(--fgColor-highlight);
+    border-radius: 0.8em;
 }
 
 .material-symbols-outlined {
@@ -83,12 +99,17 @@ body {
 .wrapper {
     max-width: var(--page-width);
     margin: auto;
+    padding: 0em 2em;
 }
 
 h2 {
     font-size: 1.5em;
     margin-top: 1em;
     margin-bottom: 0.5em;
+}
+
+h2#talks {
+    margin-top: 0.8em;
 }
 
 h3 {
