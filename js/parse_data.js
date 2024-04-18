@@ -33,6 +33,7 @@ function renderTalk(data) {
         <p class="presenter">${data.presenter}</p>
         ${data.tags ? renderTags(data.tags) : ''}
         <p class="description">${data.description}</p>
+        ${data.links ? renderLinks(data.links) : ''}
     </div>`;
 }
 

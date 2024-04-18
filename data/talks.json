@@ -7,7 +7,13 @@
       ["physics", "Statistical Physics"],
       ["math", "Probability Theory"]
     ],
-    "description": "Dolor sit amet, consectetur adipiscing elit. Ut suscipit quam ligula, eget dignissim tortor efficiturid. Etiam non consectetur nisi. Praesent tincidunt eu ex a auctor."
+    "description": "Based on the paper by Feinerman et al., we have explored how one is able to model the behaviour of ants during cooperative transport using Ising's model of ferromagnetism.",
+    "links": [
+        {
+            "href":"https://doi.org/10.1038/s41567-018-0107-y",
+            "text": "The physics of cooperative transport in groups of ants"
+        }
+    ]
   },
   {
     "timestamp": "17. 4. 2024",
