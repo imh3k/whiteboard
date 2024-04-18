@@ -70,6 +70,7 @@ async function main() {
     const upcomingTalksData = [];
     const pastTalksData = [];
     talksData.forEach((x) => (compareTimesamps(x, dateToday) >= 0 ? upcomingTalksData : pastTalksData).push(x));
+    pastTalksData.reverse();
 
     upcomingTalks.innerHTML = `
         ${upcomingTalksData.map(renderTalk).join('\n')}
