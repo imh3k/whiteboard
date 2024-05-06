@@ -24,5 +24,20 @@
       ["math", "Group Theory"]
     ],
     "description": "The operators in an Effective Field Theory Lagrangian satisfy various relations that arise from equations of motion, integration by parts, and finite-dimensionality conditions. These relations can be systematically handled using group-theoretic techniques implemented in the so-called Hilbert series method, which enables us to compute a generating function that encodes the number of independent operators with a given number of derivatives and particle fields."
+  },
+  {
+    "timestamp": "1. 5. 2024",
+    "title": "Peierls's argument about phase transitions in 2D Ising model",
+    "presenter": "Bc. Marek Jankola",
+    "tags": [
+      ["physics", "Statistical Physics"]
+    ],
+    "description": "Will be added.",
+    "links": [
+        {
+            "href":"https://doi.org/10.1038/s41567-018-0107-y",
+            "text": "The physics of cooperative transport in groups of ants"
+        }
+    ]
   }
 ]
