@@ -27,16 +27,16 @@
   },
   {
     "timestamp": "1. 5. 2024",
-    "title": "Peierls's argument about phase transitions in 2D Ising model",
+    "title": "Peierls's argument on the existance of phase transition in the Ising model",
     "presenter": "Bc. Marek Jankola",
     "tags": [
       ["physics", "Statistical Physics"]
     ],
-    "description": "Will be added.",
+    "description": "Ising proved that there is no phase transition in the 1D simplified model of ferromagnetism. However, the existence of phase transitions in higher dimensional models remained an opened question. Peierls provided an answer by reformulating the problem through boundaries and regions within. His answer established Ising model as physically relevant model of ferromagnetism.",
     "links": [
         {
-            "href":"https://doi.org/10.1038/s41567-018-0107-y",
-            "text": "The physics of cooperative transport in groups of ants"
+            "href":"https://doi.org/10.1017/S0305004100019174",
+            "text": "On Ising's model of ferromagnetism"
         }
     ]
   }
