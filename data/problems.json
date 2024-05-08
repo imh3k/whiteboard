@@ -52,5 +52,20 @@
         "note": "math.stackexchange"
       }
     ]
+  },
+  {
+    "timestamp": "1. 5. 2024",
+    "title": "Asymptotic behaviour of the number of directory tree structures",
+    "presenter": "Bc. Marek Jankola",
+    "tags": [
+      ["math", "Combinatorics"]
+    ],
+    "assignment": "Let us imagine a system of folders, where every folder can have up to \\(d\\) files (another folders) in it -we get an example of tree structure. What is the asymptotic behaviour (as number of folders \\(N\\) goes to infinity) of possible structures of this type ?",
+    "hints": [
+      ["First hint", "Try to rephrase the problem using power series -in particular construct the generating function for the numbers of possible structures."],
+      ["Second hint", "Find recursive relation for the sum of this power series."],
+      ["Third hint", "Utilizing the recursive relation can we find the radius of convergence of this series? Can it tell us something about the sought for number of structures?"],
+      ["Final hint", "Use the ratio test for convergence of the series."]
+    ]
   }
 ]
