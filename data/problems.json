@@ -60,7 +60,7 @@
     "tags": [
       ["math", "Combinatorics"]
     ],
-    "assignment": "Let us imagine a system of folders, where every folder can have up to \\(d\\) files (another folders) in it -we get an example of tree structure. What is the asymptotic behaviour (as number of folders \\(N\\) goes to infinity) of possible structures of this type ?",
+    "assignment": "Let us imagine a system of folders, where every folder can have up to \\(d\\) files (another folders) in it -we get an example of tree structure. What is the asymptotic behaviour (as number of folders \\(N\\) goes to infinity) of possible structures of this type ? Note that the graph tree is labeled(different folders) -this gets us more combinatorical additions.",
     "hints": [
       ["First hint", "Try to rephrase the problem using power series -in particular construct the generating function for the numbers of possible structures."],
       ["Second hint", "Find recursive relation for the sum of this power series."],
