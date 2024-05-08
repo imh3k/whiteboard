@@ -91,6 +91,8 @@ async function main() {
         })
         .catch(error => console.error("Unable to fetch problems data:", error));
 
+    problemsData.sort((a, b) => compareTimesamps(b, a));
+
     problems.innerHTML = `
         ${problemsData.map(renderProblem).join('\n')}
     `;
