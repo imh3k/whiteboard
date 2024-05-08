@@ -1,4 +1,9 @@
 function compareTimesamps(a, b) {
+    if (a.timestamp.includes('TBD')) {
+        return 1;
+    } else if (b.timestamp.includes('TBD')) {
+        return -1;
+    }
     a_int = parseInt(a.timestamp.split('.').map(x => x.trim().padStart(2, '0')).reverse().join(''));
     b_int = parseInt(b.timestamp.split('.').map(x => x.trim().padStart(2, '0')).reverse().join(''));
     return a_int - b_int
