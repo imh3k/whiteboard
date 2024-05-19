@@ -19,7 +19,7 @@ function renderTags(tags) {
 function renderLinks(links) {
     return `
     <div class="links">
-    ${links.map(link => `<a href="${link.href}" class="file">${link.text}${link.note ? `<span class="link-note">(${link.note})</span>` : ''}</a>`).join('\t')}
+    ${links.map(link => `<a href="${link.href}" class="file" target="_blank">${link.text}${link.note ? `<span class="link-note">(${link.note})</span>` : ''}</a>`).join('\t')}
     </div>`;
 }
 
