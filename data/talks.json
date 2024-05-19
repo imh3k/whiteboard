@@ -10,7 +10,7 @@
     "description": "Based on the paper by Feinerman et al., we have explored how one is able to model the behaviour of ants during cooperative transport using Ising's model of ferromagnetism.",
     "links": [
         {
-            "href":"https://doi.org/10.1038/s41567-018-0107-y",
+            "href": "https://doi.org/10.1038/s41567-018-0107-y",
             "text": "The physics of cooperative transport in groups of ants"
         }
     ]
@@ -20,8 +20,9 @@
     "title": "Counting Operators in Effective Field Theories",
     "presenter": "Bc. Jonáš Dujava",
     "tags": [
-      ["physics", "QFT"],
-      ["math", "Group Theory"]
+      ["math", "Group Theory"],
+      ["physics", "Quantum Field Theory"],
+      ["math", "Generating Functions"]
     ],
     "description": "The operators in an Effective Field Theory Lagrangian satisfy various relations that arise from equations of motion, integration by parts, and finite-dimensionality conditions. These relations can be systematically handled using group-theoretic techniques implemented in the so-called Hilbert series method, which enables us to compute a generating function that encodes the number of independent operators with a given number of derivatives and particle fields."
   },
@@ -35,7 +36,7 @@
     "description": "Ising proved that there is no phase transition in the 1D simplified model of ferromagnetism. However, the existence of phase transitions in higher dimensional models remained an opened question. Peierls provided an answer by reformulating the problem through boundaries and regions within. His answer established Ising model as physically relevant model of ferromagnetism.",
     "links": [
         {
-            "href":"https://doi.org/10.1017/S0305004100019174",
+            "href": "https://doi.org/10.1017/S0305004100019174",
             "text": "On Ising's model of ferromagnetism"
         }
     ]
