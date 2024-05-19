@@ -176,16 +176,26 @@ h4:hover .anchor,h5:hover .anchor,h6:hover .anchor {
 }
 
 .hints {
-    line-height: 1.5em;
+    margin-top: 0.7em;
+    line-height: 1.4em;
 }
 
-.hint {
+.hints .hint {
+    color: var(--fgColor-muted);
+    margin-top: 0.4em;
+}
+
+.hide {
+    padding: 0.15em 0em;
+}
+.hide, .hide mjx-math {
     background-color: var(--bgColor-highlight);
     color: transparent;
     user-select: none;
 }
 
-.hint:active{
+
+.hide:hover, .hide:hover mjx-math {
     background-color: inherit;
     color: inherit;
 }

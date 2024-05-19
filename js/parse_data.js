@@ -26,7 +26,7 @@ function renderLinks(links) {
 function renderHints(hints) {
     return `
     <div class="hints">
-    ${hints.map(hint => `${hint[0]}: <span class="hint">${hint[1]}</span>`).join('<br>')}
+    ${hints.map(hint => `<p class="hint">${hint[0]}: <span class="hide">${hint[1]}</span></p>`).join('')}
     </div>`;
 }
 
