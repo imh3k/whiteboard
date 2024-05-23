@@ -1,6 +1,17 @@
 [
   {
     "timestamp": "22. 5. 2024",
+    "title": "Exponential map generates all graphs from the connected ones",
+    "presenter": "Bc. Jonáš Dujava",
+    "tags": [
+      ["math", "Combinatorics"],
+      ["math", "Graph Theory"],
+      ["math", "Generating Functions"]
+    ],
+    "description": "A large class of problems (in combinatorics, but also for example in QFT — notably Feynman diagrams) can be formulated as a sum over certain class of graphs, with weights that factorize for disjoint unions of graphs (with addition of implicit \"symmetry factors\"). Factorization of weights enables us to first decompose the graph into \"connected\" components, then perform the calculation independently on every component, and multiply the contributions at the end (often in combinatorics, when enumerating number of ways to carry out a certain task on an \\(n\\)-element set, we can first make all admissible partitions of the original set into blocks, and carry out the task on each block independently). <br> We will derive and demonstrate on examples the relation \\(\\displaystyle\\sum\\limits_{\\substack{\\text{all graphs}\\,G \\\\ \\text{for a given problem}}} \\frac{1}{|\\text{Aut}\\,G|} w[G] = \\exp\\left( \\sum\\limits_{\\substack{\\text{connected} \\\\ \\text{graphs}\\,\\gamma}}\\frac{1}{|\\text{Aut}\\,\\gamma|} w[\\gamma] \\right) \\), in words \"Exponential map generates contributions of all graphs from just the connected ones, with correct weights and symmetric factors.\" One can often extract interesting results from this relation, or immediately simplify the calculation to a more manageable set of contributions (just connected graphs instead of all graphs)."
+  },
+  {
+    "timestamp": "22. 5. 2024",
     "title": "Universal approximation theorem vs Kolmogorov–Arnold",
     "presenter": "Bc. Tomáš Červeň",
     "tags": [
