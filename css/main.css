@@ -178,6 +178,7 @@ h4:hover .anchor,h5:hover .anchor,h6:hover .anchor {
 .hints {
     margin-top: 0.7em;
     line-height: 1.4em;
+    font-size: 0.8rem;
 }
 
 .hints .hint {
@@ -239,4 +240,9 @@ h4:hover .anchor,h5:hover .anchor,h6:hover .anchor {
 .tags .math {
     color: #3a0a0a;
     background-color: #ff6d7d;
+}
+
+.tags .comp-sci {
+    color: #132643;
+    background-color: #6f9efa;
 }

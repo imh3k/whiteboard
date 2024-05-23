@@ -1,5 +1,21 @@
 [
   {
+    "timestamp": "22. 5. 2024",
+    "title": "Universal approximation theorem vs Kolmogorov–Arnold",
+    "presenter": "Bc. Tomáš Červeň",
+    "tags": [
+      ["comp-sci", "Machine Learning"],
+      ["math", "Numerical Analysis"]
+    ],
+    "description": "A paper recently uploaded to ArXiv proposes an alternative to Perceptrons that plays a crucial role as the backbone of many architectures. While perceptrons are theoretically backed by a universal approximation theorem consisting of a fixed activation function with learnable weights, newly proposed KANs build upon a K-A representation theorem, making the activation functions learnable. We will explore both theorems and show how the paper mentioned uses Bezier curves and b-splines to represent an activation function. We will demonstrate some strengths of this alternative approach, namely \"locality\" and better interpretability.",
+    "links": [
+      {
+        "href": "https://arxiv.org/abs/2404.19756",
+        "text": "Kolmogorov-Arnold Networks paper"
+      }
+    ]
+  },
+  {
     "timestamp": "10. 4. 2024",
     "title": "Ants and Ising model",
     "presenter": "Bc. Jakub Kriš",
