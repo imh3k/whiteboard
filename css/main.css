@@ -112,6 +112,15 @@ h2#talks {
     margin-top: 0.8em;
 }
 
+h1#about {
+    margin-top: 0.5em;
+}
+.about p {
+    font-size: 1.5em;
+    width: 90%;
+    margin: 0.4em auto;
+}
+
 h3 {
     font-size: 1.2em;
     /*margin-top: 0.5em;*/
