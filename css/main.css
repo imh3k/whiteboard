@@ -15,10 +15,11 @@
 
 :root {
     --bgColor-default: #0d1117;
+    --bgColor-navbar: #0d1117ea;
     --bgColor-muted: #161b22;
     --bgColor-highlight: #222730;
     --bgColor-inset: #010409;
-    --bgColor-emphasis: #6e7681;
+    --bgColor-emphasis: #1e2631;
     --bgColor-accent-emphasis: #1f6feb;
     --fgColor-default: #e6edf3;
     --fgColor-highlight: #f0f6fc;
@@ -28,6 +29,7 @@
     --borderColor-muted: #30363db3;
     --page-width: 1020px;
     font-size: 16px;
+    scroll-padding-top: 5em; /* 4em (height of navbar) + 1em */
 }
 
 * {
@@ -43,10 +45,16 @@ body {
 }
 
 .navbar {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    width: 100%;
+    height: 4em;
     display: flex;
     justify-content: space-between;
-    height: 4em;
     border-bottom: var(--borderColor-default) solid 1px;
+    background-color: var(--bgColor-navbar);
+    box-shadow: 0 0 3em var(--bgColor-default);
 }
 
 .navbar .container {
@@ -79,7 +87,7 @@ body {
     font-size: 1.1em;
 }
 .navbar a:hover {
-    background-color: var(--bgColor-muted);
+    background-color: var(--bgColor-emphasis);
     color: var(--fgColor-highlight);
     border-radius: 0.8em;
 }
@@ -99,6 +107,7 @@ body {
 .wrapper {
     max-width: var(--page-width);
     margin: auto;
+    margin-top: 5em; /* 4em (height of navbar) + 1em */
     padding: 0em 2em;
 }
 
