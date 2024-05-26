@@ -1,10 +1,10 @@
 /*:root {*/
-/*    --bgColor-defualt: #ffffff;*/
+/*    --bgColor-default: #ffffff;*/
 /*    --bgColor-muted: #f6f8fa;*/
 /*    --bgColor-inset: #f6f8fa;*/
 /*    --bgColor-emphasis: #24292f;*/
 /*    --bgColor-accent-emphasis: #0969da;*/
-/*    --fgColor-defualt: #1f2328;*/
+/*    --fgColor-default: #1f2328;*/
 /*    --fgColor-muted: #636c76;*/
 /*    --fgColor-accent: #0969da;*/
 /*    --borderColor-default: #d0d7de;*/
@@ -14,13 +14,13 @@
 /*}*/
 
 :root {
-    --bgColor-defualt: #0d1117;
+    --bgColor-default: #0d1117;
     --bgColor-muted: #161b22;
     --bgColor-highlight: #222730;
     --bgColor-inset: #010409;
     --bgColor-emphasis: #6e7681;
     --bgColor-accent-emphasis: #1f6feb;
-    --fgColor-defualt: #e6edf3;
+    --fgColor-default: #e6edf3;
     --fgColor-highlight: #f0f6fc;
     --fgColor-muted: #848d97;
     --fgColor-accent: #4493f8;
@@ -38,8 +38,8 @@
 
 body {
     font-family: 'Hanken Grotesk', sans-serif;
-    color: var(--fgColor-defualt);
-    background-color: var(--bgColor-defualt);
+    color: var(--fgColor-default);
+    background-color: var(--bgColor-default);
 }
 
 .navbar {
@@ -62,7 +62,7 @@ body {
     align-items: center;
     font-size: 1em;
     font-weight: 700;
-    color: var(--fgColor-defualt);
+    color: var(--fgColor-default);
     margin-right: auto;
 }
 .navbar_logo .logo {
@@ -129,7 +129,7 @@ h3 {
 
 a {
     text-decoration: none;
-    color: var(--fgColor-defualt);
+    color: var(--fgColor-default);
 }
 
 h1:hover .anchor,h2:hover .anchor,h3:hover .anchor,
