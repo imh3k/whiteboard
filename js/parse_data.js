@@ -80,6 +80,14 @@ async function main() {
     upcomingTalks.innerHTML = `
         ${upcomingTalksData.map(renderTalk).join('\n')}
     `;
+    // fallback for when there are no upcoming talks
+    if (upcomingTalksData.length === 0) {
+        upcomingTalks.innerHTML = `
+            <div class="entry">
+                <p class="title">No upcoming talks.</p>
+                <p class="presenter">You can be the next presenter!</p>
+            </div>`;
+    }
 
     pastTalks.innerHTML = `
         ${pastTalksData.map(renderTalk).join('\n')}
