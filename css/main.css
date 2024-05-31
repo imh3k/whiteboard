@@ -30,6 +30,7 @@
     --page-width: 1020px;
     font-size: 16px;
     scroll-padding-top: 5em; /* 4em (height of navbar) + 1em */
+    scroll-behavior: smooth;
 }
 
 * {
