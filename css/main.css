@@ -265,3 +265,8 @@ h4:hover .anchor,h5:hover .anchor,h6:hover .anchor {
     color: #132643;
     background-color: #6f9efa;
 }
+
+.tags .biology {
+    color: #133213;
+    background-color: #2fee9a;
+}

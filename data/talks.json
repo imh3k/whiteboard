@@ -21,6 +21,16 @@
     "description": "A large class of problems (in combinatorics, but also for example in QFT — notably Feynman diagrams) can be formulated as a sum over certain class of graphs, with weights that factorize for disjoint unions of graphs (with addition of implicit \"symmetry factors\"). Factorization of weights enables us to first decompose the graph into \"connected\" components, then perform the calculation independently on every component, and multiply the contributions at the end (often in combinatorics, when enumerating number of ways to carry out a certain task on an \\(n\\)-element set, we can first make all admissible partitions of the original set into blocks, and carry out the task on each block independently). <br> We will derive and demonstrate on examples the relation \\(\\displaystyle\\sum\\limits_{\\substack{\\text{all graphs}\\,G \\\\ \\text{for a given problem}}} \\frac{1}{|\\text{Aut}\\,G|} w[G] = \\exp\\left( \\sum\\limits_{\\substack{\\text{connected} \\\\ \\text{graphs}\\,\\gamma}}\\frac{1}{|\\text{Aut}\\,\\gamma|} w[\\gamma] \\right) \\), in words \"Exponential map generates contributions of all graphs from just the connected ones, with correct weights and symmetric factors.\" One can often extract interesting results from this relation, or immediately simplify the calculation to a more manageable set of contributions (just connected graphs instead of all graphs)."
   },
   {
+    "timestamp": "12. 6. 2024",
+    "title": "Meeting cytoskeleton: structural and functional basis",
+    "presenter": "Mgr. Michaela Dujava Ždímalová",
+    "tags": [
+      ["biology", "Cell Biology"],
+      ["biology", "Molecular Biology"]
+    ],
+    "description": "Cytoskeletal filaments — microtubules and actin — are an indispensable component of all living cells. One can imagine them as long ropes or sticks composed of smaller subunits, creating highly organized networks in cells. Their regulated dynamic assembly and disassembly can lead to creation of mechanical forces at the cellular scale, which is utilized in many various life-essential processes, including cellular movement (sperms, neurons, immune cells), cell division, or transport of inner material. Cytoskeleton also provides cells a resistance to external mechanical stresses. Improper functioning of cytoskeleton can lead to serious diseases as Alzheimer or all kinds of cancers, hence it is an important topic for biological research."
+  },
+  {
     "timestamp": "22. 5. 2024",
     "title": "Universal approximation theorem vs Kolmogorov–Arnold",
     "presenter": "Bc. Tomáš Červeň",
