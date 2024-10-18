@@ -1,5 +1,15 @@
 [
-    {
+  {
+    "timestamp": "TBD",
+    "title": "Projective geometry and Camera models",
+    "presenter": "<a href=\"https://c.tenor.com/Lbrr3HR3CnkAAAAd/tenor.gif\" class=\"presenter\">Mgr.</a> Tomáš Červeň",
+    "tags": [
+      ["math", "Projective Geometry"],
+      ["comp-sci", "Computer Vision"]
+    ],
+    "description": "Most physicists are familiar with real projective 3-space \\(\\mathbb{RP}^3\\) through the study of the group \\(SO(3)\\), or with complex projective space as represented by the Bloch sphere. In this talk, we will demonstrate how real projective space, along with its connection to the real space of one higher dimension, enables a description of geometric primitives that allows for writing formulas, statements, and transformations in a more general and unified manner. We will illustrate how this framework addresses the challenge of working with parallel lines, and clarify the statement that \"parallel lines intersect at infinity.\" Equipped with this algebraic-geometric framework, we will then explore how to find a mathematical model of a camera, and showcase its power in pose estimation—the task of determining position in 3D space from a camera image."
+  },
+  {
     "timestamp": "19.6.2024",
     "title": "Double Counting",
     "presenter": "Bc. Matej Straka",
