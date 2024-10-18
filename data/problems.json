@@ -93,5 +93,24 @@
         "note": "Wikipedia - Partition function"
       }
     ]
+  },
+  {
+    "timestamp": "16. 10. 2024",
+    "title": "The Uniform Triangle",
+    "presenter": "Mgr. Tomáš Červeň",
+    "tags": [
+      ["math", "Probability"]
+    ],
+    "assignment": "Let \\(x, y, z \\in U([0, 1])\\) be three independent random variables, each with uniform distribution on the interval \\([0,1]\\). Determine the distribution of \\((xy)^z\\)."
+  },
+  {
+    "timestamp": "16. 10. 2024",
+    "title": "The Correlation Triangle",
+    "presenter": "Mgr. Tomáš Červeň",
+    "tags": [
+      ["math", "Probability"],
+      ["math", "Statistics"]
+    ],
+    "assignment": "Let \\(x, y, z\\) be three random variables such that \\( \\text{corr}(x, y) = 0.99 \\) and \\( \\text{corr}(x, z) = 0 \\). Determine the maximum possible value of \\( \\text{corr}(y, z) \\)."
   }
 ]
