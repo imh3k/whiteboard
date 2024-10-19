@@ -10,6 +10,16 @@
     "description": "Most physicists are familiar with real projective 3-space \\(\\mathbb{RP}^3\\) through the study of the group \\(SO(3)\\), or with complex projective space as represented by the Bloch sphere. In this talk, we will demonstrate how real projective space, along with its connection to the real space of one higher dimension, enables a description of geometric primitives that allows for writing formulas, statements, and transformations in a more general and unified manner. We will illustrate how this framework addresses the challenge of working with parallel lines, and clarify the statement that \"parallel lines intersect at infinity.\" Equipped with this algebraic-geometric framework, we will then explore how to find a mathematical model of a camera, and showcase its power in pose estimation—the task of determining position in 3D space from a camera image."
   },
   {
+    "timestamp": "16.10.2024",
+    "title": "Market making",
+    "presenter": "MMath Ronald Doboš",
+    "tags": [
+      ["math", "Industry"],
+      ["math", "Statistics"]
+    ],
+    "description": "An intro to the dynamics of markets and market making, accompanied with a discussion on its purpose and impact."
+  },
+  {
     "timestamp": "19.6.2024",
     "title": "Double Counting",
     "presenter": "Bc. Matej Straka",
