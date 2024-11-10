@@ -11,13 +11,13 @@
   },
   {
     "timestamp": "16.10.2024",
-    "title": "Market making",
+    "title": "Market Making",
     "presenter": "MMath Ronald Doboš",
     "tags": [
-      ["math", "Industry"],
+      ["comp-sci", "Industry"],
       ["math", "Statistics"]
     ],
-    "description": "An intro to the dynamics of markets and market making, accompanied with a discussion on its purpose and impact."
+    "description": "An introduction to the dynamics of markets and market making, accompanied with a discussion on its purpose and impact."
   },
   {
     "timestamp": "19.6.2024",
@@ -53,7 +53,7 @@
   {
     "timestamp": "22. 5. 2024",
     "title": "Universal approximation theorem vs Kolmogorov–Arnold",
-    "presenter": "Bc. Tomáš Červeň",
+    "presenter": "Mgr. Tomáš Červeň",
     "tags": [
       ["comp-sci", "Machine Learning"],
       ["math", "Numerical Analysis"]
