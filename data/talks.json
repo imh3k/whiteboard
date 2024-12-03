@@ -20,18 +20,6 @@
       ["comp-sci", "Algorithms"]
     ],
     "description": "How much time does it take to multiply two \\n\\ digits long numbers? When one uses the algorithm taught in middle schools, she quickly finds the \\(\\mathcal{O}(n^2)\\) time complexity. Can we do better? Utilizing 'devide and conquer' strategy and one neat trick we arrive at roughly\\(\\mathcal{O}(n^1.585)\\). Furthermore, we show that we can go as low as \\(\\mathcal{O}(n^(1+\\epsilon))\\), which begs the question: 'Is multiplication as hard/easy as summation?'. We finally argue that true complexity seems to be \\(\\mathcal{O}(n\\log n)\\)."
-    
-  },
-  {
->>>>>>> Stashed changes
-    "timestamp": "16.10.2024",
-    "title": "Market Making",
-    "presenter": "MMath Ronald Doboš",
-    "tags": [
-      ["comp-sci", "Industry"],
-      ["math", "Statistics"]
-    ],
-    "description": "An introduction to the dynamics of markets and market making, accompanied with a discussion on its purpose and impact."
   },
   {
     "timestamp": "19.6.2024",
