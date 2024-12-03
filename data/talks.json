@@ -10,6 +10,20 @@
     "description": "Most physicists are familiar with real projective 3-space \\(\\mathbb{RP}^3\\) through the study of the group \\(SO(3)\\), or with complex projective space as represented by the Bloch sphere. In this talk, we will demonstrate how real projective space, along with its connection to the real space of one higher dimension, enables a description of geometric primitives that allows for writing formulas, statements, and transformations in a more general and unified manner. We will illustrate how this framework addresses the challenge of working with parallel lines, and clarify the statement that \"parallel lines intersect at infinity.\" Equipped with this algebraic-geometric framework, we will then explore how to find a mathematical model of a camera, and showcase its power in pose estimation—the task of determining position in 3D space from a camera image."
   },
   {
+<<<<<<< Updated upstream
+=======
+    "timestamp": "27. 11. 2024",
+    "title": "On the complexity of multiplying two numbers",
+    "presenter": "Bc. Marek Jankola",
+    "tags": [
+      ["comp-sci", "Complexity theory"],
+      ["comp-sci", "Algorithms"]
+    ],
+    "description": "How much time does it take to multiply two \\n\\ digits long numbers? When one uses the algorithm taught in middle schools, she quickly finds the \\(\\mathcal{O}(n^2)\\) time complexity. Can we do better? Utilizing 'devide and conquer' strategy and one neat trick we arrive at roughly\\(\\mathcal{O}(n^1.585)\\). Furthermore, we show that we can go as low as \\(\\mathcal{O}(n^(1+\\epsilon))\\), which begs the question: 'Is multiplication as hard/easy as summation?'. We finally argue that true complexity seems to be \\(\\mathcal{O}(n\\log n)\\)."
+    
+  },
+  {
+>>>>>>> Stashed changes
     "timestamp": "16.10.2024",
     "title": "Market Making",
     "presenter": "MMath Ronald Doboš",
