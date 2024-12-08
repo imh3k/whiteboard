@@ -10,6 +10,16 @@
     "description": "Most physicists are familiar with real projective 3-space \\(\\mathbb{RP}^3\\) through the study of the group \\(SO(3)\\), or with complex projective space as represented by the Bloch sphere. In this talk, we will demonstrate how real projective space, along with its connection to the real space of one higher dimension, enables a description of geometric primitives that allows for writing formulas, statements, and transformations in a more general and unified manner. We will illustrate how this framework addresses the challenge of working with parallel lines, and clarify the statement that \"parallel lines intersect at infinity.\" Equipped with this algebraic-geometric framework, we will then explore how to find a mathematical model of a camera, and showcase its power in pose estimation—the task of determining position in 3D space from a camera image."
   },
   {
+    "timestamp": "4. 12. 2024",
+    "title": "Group Theory: What, Why, and How?",
+    "presenter": "Bc. Jonáš Dujava",
+    "tags": [
+      ["math", "Group Theory"],
+      ["physics", "Symmetry in Physics"]
+    ],
+    "description": "Humans (at least scientists) are pattern seeking beings, so the most intriguing systems in nature usually carry some distinct pattern or symmetry. Generally, we can say a lot more about systems which admit mathematical description enjoying a lot of symmetries, which provide us with handles to formulate strong claims and even prove them.<br><br>Therefore, it is no accident that Group Theory is omnipresent both in mathematics and physics. Since it studies the structure itself underpinning the symmetries, it can provide answers to various fundamental questions: 'What system behaviors are admissable, and which are not?', 'Why is some mathematical technique so useful in this context?, 'How can one choose the most efficient description of the system?<br><br>We will look at various examples showcasing the power of Group Theory and closely associated Representation Theory. As mathematical applications we will interpret some well known facts in Linear Algrebra from the group theory vantage point, and also motivate Lie Theory approach to solving differential equations. From physics, we will mention examples ranging from Condensed Matter Physics, through (Quantum) Molecular Physics, and we even touch fundamental theories like Quantum Field Theory."
+  },
+  {
     "timestamp": "27. 11. 2024",
     "title": "On the complexity of multiplying two numbers",
     "presenter": "Bc. Marek Jankola",
